@@ -116,11 +116,11 @@ $(document).ready(function(){
   var d = new Date();
   var n = d.getHours();
 
-  if (n > 19 || n < 6)
-    // If time is after 7PM or before 6AM, apply night theme to ‘body’
+  if (n > 20 || n < 6)
+    // If time is after 8PM or before 6AM, apply night theme to ‘night’
     document.body.className = "night";
-  else if (n > 16 && n < 19)
-    // If time is between 4PM – 7PM sunset theme to ‘body’
+  else if (n > 16 && n < 20)
+    // If time is between 5PM – 8PM sunset theme to ‘sunset’
     document.body.className = "sunset";
   else
     // Else use ‘day’ theme

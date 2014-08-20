@@ -100,10 +100,12 @@ a{
 
 .sunset {
   background: url("../img/sunset.png") no-repeat center center fixed;
+  background-size: 100%;
 }
 
 
 .night {
   background: url("../img/night.png") no-repeat center center fixed;
+  background-size: 100%;
 }
 
