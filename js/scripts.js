@@ -1,3 +1,5 @@
+/* Clock */
+
 $(document).ready(function(){
   
   // Set up variables to enable smooth animating past the 360deg point
@@ -107,3 +109,30 @@ $(document).ready(function(){
   }, 1000);
 
 });
+
+/*Day/Night*/
+
+$(document).ready(function() {
+
+  $('#day').on('click', function() {
+  
+     //go day
+  $('body').addClass('day').removeClass('night');
+    
+   });
+  
+  
+  $('#night').on('click', function() {
+    
+    //go night
+  $('body').addClass('night').removeClass('day');
+  
+});
+
+});
+
+
+
+
+
+
