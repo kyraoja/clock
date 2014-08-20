@@ -99,26 +99,15 @@ a{
 }
 
 .day {
-  background: url("../img/day.png");
-  max-width: 
-}
-
-.day p{
-  color:#333;
+  background: url("../img/day.png") no-repeat center center fixed;
 }
 
 .sunset {
-  background: url("../img/sunset.png");
+  background: url("../img/sunset.png") no-repeat center center fixed;
 }
 
-.sunset p{
-  color: #fff;
-}
 
 .night {
-  background: url("../img/night.png");
+  background: url("../img/night.png") no-repeat center center fixed;
 }
 
-.night p{
-  color: #fff;
-}
