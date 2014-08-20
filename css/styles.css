@@ -11,7 +11,7 @@ body {
   width:600px;
   height:600px;
   border-radius:50%;
-  background:#3DB8AF;
+  background:#019CD5;
   margin:auto;
   position:relative;
   font-size:30px;
@@ -24,7 +24,7 @@ body {
   position:absolute;
   top:282px;
   left:282px;
-  background:#3D8FB8;
+  background:#A9EB5B;
   z-index:9999;
   border-radius:50%;
 }
@@ -47,19 +47,19 @@ body {
 }
 
 .hours {
-  background:#CD75D1;
+  background:#FA5B0F;
   width:250px;
   z-index:10;
 }
 
 .minutes {
-  background:#C1D98C;
+  background:#A9EB5B;
   width:270px;
   z-index:20;
 }
 
 .seconds {
-  background:#94C8DB;
+  background:#AFAFAF;
   width:290px;
   top:292px;
   height:16px;
@@ -74,3 +74,5 @@ span {
   transition: none;
   max-width:100%;
 }
+
+
