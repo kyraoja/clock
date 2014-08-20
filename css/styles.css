@@ -1,9 +1,3 @@
-/* Background */
-background{
-  
-}
-
-
 /* Clock */
 
 * {
@@ -100,6 +94,8 @@ a{
 
 .day {
   background: url("../img/day.png") no-repeat center center fixed;
+  background-size: 100%;
+  
 }
 
 .sunset {
