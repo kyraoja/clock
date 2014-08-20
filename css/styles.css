@@ -1,12 +1,25 @@
+/* Background */
+background{
+  
+}
+
+
 /* Clock */
 
 * {
   box-sizing:border-box;
 }
 
+h1{
+  font-weight: bold;
+}
+
 body {
   text-align:center;
   padding:10px;
+  font-size: 30px;
+  
+ 
 }
 
 .clock {
@@ -16,8 +29,9 @@ body {
   background:#019CD5;
   margin:auto;
   position:relative;
-  font-size:30px;
+  font-size: 20px;
   margin-top:30px;
+
 }
 
 .center {
@@ -79,17 +93,30 @@ span {
 
 /* Day/Night */
 
+a{
+  color: #000;
+  font-size: 30px;
+}
+
 .day {
-  background: #ffeabf;
+  background: url("../img/day.png");
+  max-width: 
 }
 
 .day p{
   color:#333;
-  
+}
+
+.sunset {
+  background: url("../img/sunset.png");
+}
+
+.sunset p{
+  color: #fff;
 }
 
 .night {
-  background: #333;
+  background: url("../img/night.png");
 }
 
 .night p{
