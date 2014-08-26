@@ -16,6 +16,8 @@ body {
  
 }
 
+
+
 .clock {
   width:600px;
   height:600px;
@@ -25,7 +27,6 @@ body {
   position:relative;
   font-size: 20px;
   margin-top:30px;
-
 }
 
 .center {
@@ -41,7 +42,6 @@ body {
 
 .hours, .minutes, .seconds {
   position:absolute;
-  /* This is the important bit */
   transform-origin: left;
   text-align:right;
   text-transform:uppercase;
@@ -94,31 +94,27 @@ a{
 
 .day {
   background: url("../img/day.png") no-repeat center center fixed;
-  background-size: 100%;
-  
+  background-size: cover;
 }
 
 .sunset {
   background: url("../img/sunset.png") no-repeat center center fixed;
-  background-size: 100%;
+  background-size: cover;
 }
 
 
 .night {
   background: url("../img/night.png") no-repeat center center fixed;
-  background-size: 100%;
+  background-size: cover;
 }
 
 
 
 /*media queries*/
 @media screen and ( max-width: 1024px ) {
-
-  body{
-    background: red;
-  }
   
- 
+
+
   
 } /* END OF DESKTOP */
 
@@ -128,19 +124,13 @@ a{
 
 @media screen and ( max-width: 768px ) {
 
-  body{
-    background: blue;
-  }
-  
+ 
 
 }
 /* PHONE */
 
 @media screen and ( max-width: 480px ) {
   
-  body{
-    background: green;
-  }
 
 
 } /* END OF PHONE */
