@@ -109,3 +109,39 @@ a{
   background-size: 100%;
 }
 
+
+
+/*media queries*/
+@media screen and ( max-width: 1024px ) {
+
+  body{
+    background: red;
+  }
+  
+ 
+  
+} /* END OF DESKTOP */
+
+
+
+/* TABLET */
+
+@media screen and ( max-width: 768px ) {
+
+  body{
+    background: blue;
+  }
+  
+
+}
+/* PHONE */
+
+@media screen and ( max-width: 480px ) {
+  
+  body{
+    background: green;
+  }
+
+
+} /* END OF PHONE */
+
