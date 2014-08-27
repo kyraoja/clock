@@ -113,6 +113,43 @@ a{
 /*media queries*/
 @media screen and ( max-width: 1024px ) {
   
+  .clock {
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  background:#019CD5;
+  margin:auto;
+  position:relative;
+  font-size: 20px;
+  margin-top:30px;
+}
+
+.center {
+  width:36px;
+  height:36px;
+  position:absolute;
+  top:282px;
+  left:282px;
+  background:#666;
+  z-index:9999;
+  border-radius:50%;
+}
+
+.hours, .minutes, .seconds {
+  position:absolute;
+  transform-origin: left;
+  text-align:right;
+  text-transform:uppercase;
+  height:36px;
+  overflow:hidden;
+  top:282px;
+  left:300px;
+  padding: 0 10px 0 0;
+  color:white;
+  border-radius: 0 3px 3px 0;
+  font-weight:bold;
+  transition: transform 1000ms linear;
+}
 
 
   

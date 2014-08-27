@@ -1,6 +1,8 @@
 /* Clock */
 
 $(document).ready(function(){
+
+  
   
   // Set up variables to enable smooth animating past the 360deg point
   
